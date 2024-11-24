@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5507fbb9b275554fa3f1a8f07b30b5f, type: 3}
+  m_Name: Tower03Slow
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 3017428759629767646, guid: 536ad38d54007cc4dbc86bcae6e69b82, type: 3}
+  followTowerPrefab: {fileID: 747575563420068940, guid: a640c9e92f117ba4baa76a7404a5d317, type: 3}
+  weapon:
+  - sprite: {fileID: 21300000, guid: 289e171ae8cff464bb2c8463295b2d5c, type: 3}
+    damage: 0
+    slow: 0.2
+    rate: 0
+    range: 2
+    cost: 400
+    sell: 200
+  - sprite: {fileID: 21300000, guid: 6f66b80d658279c4383e19b837caec4b, type: 3}
+    damage: 0
+    slow: 0.3
+    rate: 0
+    range: 2
+    cost: 600
+    sell: 300
+  - sprite: {fileID: 21300000, guid: 22b8b7a852e5a7e4e83c3918a3a6317f, type: 3}
+    damage: 0
+    slow: 0.4
+    rate: 0
+    range: 2
+    cost: 1000
+    sell: 500
